@@ -1,0 +1,30 @@
+body {
+        background-color:aliceblue;
+        font-family:'Times New Roman', Times, serif;
+        padding-top: 20px;
+     }
+h1 {
+        color: hotpink;
+        font-weight:bold;
+        margin-bottom: 20px;
+    }
+table {
+    border-collapse: collapse;
+    width: 500px;
+    background-color:lightpink;
+    border: 2px solid plum;
+
+}
+th {
+    background-color:plum;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid plum;
+}
+td {
+    border: 2px solid plum;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
