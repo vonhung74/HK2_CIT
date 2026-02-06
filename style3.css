@@ -1,0 +1,68 @@
+header {
+  grid-area: header;
+  background-color: white;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+body{ 
+    background-color: rgb(249, 155, 249);
+}
+nav{
+    grid-area:nav;
+    background-color:rgb(77, 15, 134) ;
+
+}
+
+ nav ul {
+    list-style: none;
+    display: flex;
+    font-weight: lighter;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+}
+
+ nav a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color:black;
+}
+
+nav :active {
+    color: rgb(8, 89, 139);
+}
+main {
+        display: flex;
+}
+.form-section{
+    flex: 3;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10px;
+}
+.image-placeholder {
+    background: #e7b6ea;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.gioithieu{
+    flex: 1;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-left: 1cm;
+    margin-right: 0px;
+    margin-top: 10px;
+}
